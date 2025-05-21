@@ -3,13 +3,13 @@ package configlib;
 import java.util.Map;
 
 public class Schema {
-    private Map<String, Char[]> fields;
+    private Map<String, String> fields;
 
-    public Schema(Map<String, Char[]> fields) {
+    public Schema(Map<String, String> fields) {
         this.fields = fields;
     }
 
-    public Map<String, Char[]> getFields() {
+    public Map<String, String> getFields() {
         return fields;
     }
 }
