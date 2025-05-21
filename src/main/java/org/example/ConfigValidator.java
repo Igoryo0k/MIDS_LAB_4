@@ -1,10 +1,6 @@
 package org.example;
 
 // ================= ConfigValidator.java =================
-
-
-
-
 import java.util.Map;
 
 public class ConfigValidator {
@@ -33,7 +29,12 @@ public class ConfigValidator {
                         return false;
                     }
                     break;
-                
+                case "boolean":
+                    if (!(value instanceof Boolean)) {
+                        System.out.println("Field '" + key + "' should be a boolean.");
+                        return false;
+                    }
+                    break;
                 default:
                     System.out.println("Unknown expected type: " + expectedType);
                     return false;
