@@ -1,4 +1,4 @@
-package configlib;
+package org.example;
 
 import java.util.Map;
 
