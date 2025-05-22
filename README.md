@@ -13,7 +13,7 @@
 
 ## Дизайн-документ
 
-Докладніше читайте у Design Document (посилання буде додано пізніше).
+Докладніше читайте у [Design Document](https://docs.google.com/document/d/1FszHYRTbPc9nYaFggIKzqvvThzB0MW7Dc4najh3bPNk/edit?hl=RU&tab=t.0).
 
 ## Збірка проєкту
 
